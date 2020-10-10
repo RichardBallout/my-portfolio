@@ -1,0 +1,83 @@
+
+
+
+body {
+    background-color: rgba(19, 83, 202, 0.726);
+    color: snow;
+    font-size: 18px;
+       
+}
+
+
+span:before{
+   
+    display:inline-block; 
+    width:32px;
+}
+
+
+
+.div {
+width: 950px;
+padding: 10px;
+border: 5px groove black;
+
+  }
+
+  #one {
+    background-color: midnightblue;
+    float: left;
+    width: 870px;
+    border: 5px groove black
+    blockquote {margin: 20px;} 
+
+    }
+
+#two {
+    background-color: seagreen;
+  
+}
+
+#three {
+    background-color: midnightblue;
+    float: right;
+    width: 870px;
+    border: 5px groove black
+    blockquote {margin: 20px;}
+}
+    
+ #four {
+        width: 950px;
+        border: 5px groove black;
+        
+    }
+    
+    .<style>
+    a:link {
+      color: white;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: seagreen;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:hover {
+      color: whitesmoke;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    </style>
+  
+
+
+
+
+
+
