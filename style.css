@@ -1,48 +1,55 @@
 
-
+/* Global selector */
+* {
+  font-family: Helvetica, Sans-Serif;
+  color: black;
+  line-height: 1.2;
+}
 
 body {
-    background-color: rgba(19, 83, 202, 0.726);
-    color: snow;
+    background-color:  snow;
+    color: black;
     font-size: 18px;
        
 }
 
 
-span:before{
-   
-    display:inline-block; 
-    width:32px;
-}
 
 
 
 .div {
-width: 950px;
+width: 1200px;
 padding: 10px;
 border: 5px groove black;
 
   }
 
   #one {
-    background-color: midnightblue;
+    display: flex;
+    background-color: darkgray;
     float: left;
     width: 870px;
-    border: 5px groove black
+    border: 5px groove black;
     blockquote {margin: 20px;} 
 
     }
 
 #two {
-    background-color: seagreen;
+  background-color: darkgray;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1200px;
+
   
 }
 
 #three {
-    background-color: midnightblue;
+  display: flex;  
+  background-color: darkgray;
     float: right;
     width: 870px;
-    border: 5px groove black
+    padding 40px;
+    border: 5px groove black;
     blockquote {margin: 20px;}
 }
     
@@ -52,7 +59,9 @@ border: 5px groove black;
         
     }
     
-    .<style>
+
+   
+    
     a:link {
       color: white;
       background-color: transparent;
@@ -64,19 +73,38 @@ border: 5px groove black;
       text-decoration: none;
     }
     a:hover {
-      color: whitesmoke;
+      color: seagreen;
       background-color: transparent;
       text-decoration: underline;
     }
     a:active {
-      color: red;
+      color: seagreen;
       background-color: transparent;
       text-decoration: underline;
     }
     </style>
   
 
+    <body class="Site">
+    <header>…</header>
+    <main class="Site-content">…</main>
+    <footer>…</footer>
+  </body>
 
+  .footer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
+ .footer-content {
+   flex: 1;
+   font-size: large;
+   
+ }
+
+  
+  }
 
 
 
